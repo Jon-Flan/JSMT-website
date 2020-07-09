@@ -20,6 +20,7 @@ const Header = (props) => (
                 <li><a href="#" onClick={() => {props.onOpenArticle('work')}}>Therapies</a></li>
                 <li><a href="#" onClick={() => {props.onOpenArticle('about')}}>Testimonials</a></li>
                 <li><a href="#" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="https://square.site/book/SDZZP2T0ZWBC8/jsmt-montreal-qc">Book</a></li>
             </ul>
         </nav>
     </header>
