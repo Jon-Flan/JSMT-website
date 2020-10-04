@@ -11,7 +11,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>JSMT -Sport Massage Therapy</h1>
-                <p>The number one Sports Massage Therapy in Montreal, Canada. Don't worry, Jades got your back!</p>
+                <p>The number one Sports Massage Therapy in Montreal, Canada. Don't worry, we've got your back!</p>
             </div>
         </div>
         <nav>

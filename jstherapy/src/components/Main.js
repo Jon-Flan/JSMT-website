@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import pic01 from '../images/intro.jpg'
 import pic02 from '../images/therapies.jpg'
 import pic03 from '../images/reviews.jpg'
+import pic04 from '../images/daniela.jpg'
 
 class Main extends React.Component {
   render() {
@@ -14,13 +15,17 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Jade</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
           <p>Jade is a registered Sports Massage therapist specializing in chronic and acute musculoskeletal issues that arise either from every day activities or athletic training. </p>
           <p>Jade works with Deep tissue techniques such as Trigger Point therapy, Myofascial release and fundamentals of kinetic swedish massage therapy. With more than 10 years of training in anatomy, dance, yoga and somatic bodywork Jade is ready to support you back to health and well-being.</p>
           <p>Awards:</p>
           <p>CULTMTL #2 Top Massage Therapist Montreal 2018</p>
           <p>CULTMTL #4 Top Massage Therapist Montreal 2017</p>
+          <h2 className="major">Daniela</h2>
+          <span className="image main"><img src={pic04} alt="" /></span>
+          <p>Daniela is the newest edition at JSMT and a graduate of Jade's Therapeutic Massage Training at College LaSalle, Montreal</p>
+          <p>With her current studies in Sports Medicine at Concordia University, Daniella is more than ready to provide you with the ultimate service</p>
           {close}
         </article>
 
@@ -31,23 +36,24 @@ class Main extends React.Component {
           <p>Deep tissue massage essentially aims to address chronic pain and injury. This soothing, therapeutic treatment releases toxins, tension and pain by releasing resistant knots to create a better range of motion for joints and muscles.
              This technique is not just for athletes but any person suffering with chronic or acute pain. Using appropriate pressure to promote the healing of scar tissue as well as relief from soft tissue injuries, chronic conditions, stress and tension.</p>
           <h6>Pricing</h6>
-          <p>1hr/$85.00 or 90 mins/$115.00</p>
+          <p>1hr/$90.00,<br></br> 90 mins/$120.00,<br></br> 2hr/$165.00</p>
           <br/>
           <br/>
           <h4>Swedish/Relaxation</h4>
           <p>Swedish massage therapy involves mostly mild and moderate; sometimes deeper maneuvers to target tissues and muscles for maximal pain relief, stress release and relaxation. Allow yourself to drink in a deep state of unwinding and calm.</p>
           <h6>Pricing</h6>
-          <p>1hr/$85.00 or 90 mins/$115.00 </p>
+          <p>1hr/$90.00,<br></br> 90 mins/$120.00,<br></br> 2hr/$165.00</p>
           <br/>
           <br/>
           <h4>Onsite Sports Massage</h4>
-          <p>30 minutes and over. Jade is able to be present at any onsite sporting event either before, during or after an event. Helping prep any athlete of any caliber to get you game ready, help you cool down to prepare for next event or even relax and release tissues, muscles and articulations to help recovery.</p>
+          <p>30 minutes and over. We're able to be present at any onsite sporting event either before, during or after an event. Helping prep any athlete of any caliber to get you game ready, help you cool down to prepare for next event or even relax and release tissues, muscles and articulations to help recovery.</p>
           <h6>Pricing</h6>
           <p>Please inquire for pricing</p>
           <br/>
           <br/>
           <h4>Payment methods accepted:</h4>
-          <p>Credit Card, Cash, E-transfer or Cheque.</p>
+          <p>Onsite Card Payment and Cash.</p>
+          <p>*All pricing is before taxes</p>
           {close}
         </article>
 
@@ -70,7 +76,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="mailto:jonflanagan.jf@gmail.com" enctype="text/plain">
+          <form method="post" action="mailto:jonflanagan.jf@gmail.com" encType="text/plain">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -92,7 +98,7 @@ class Main extends React.Component {
           <p>Phone: 514-647-1841</p>
           <p>Email: jade.salter@gmail.com</p>
           <h4>Address:</h4>
-          <p>1980 Rue Sherbrooke Ouest<br/>
+          <p>#425 1980 Rue Sherbrooke Ouest<br/>
           Montreal, QC<br/>
           H3H 1E8<br/>
           Canada</p>
